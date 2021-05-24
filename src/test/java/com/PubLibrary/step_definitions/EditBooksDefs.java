@@ -1,11 +1,11 @@
-package com.SysLibrary.step_definitions;
+package com.PubLibrary.step_definitions;
 
-import com.SysLibrary.pages.DashboardPage;
-import com.SysLibrary.pages.LibrarianBooksPage;
-import com.SysLibrary.pages.LoginPage;
-import com.SysLibrary.utilities.BrowserUtils;
-import com.SysLibrary.utilities.ConfigurationReader;
-import com.SysLibrary.utilities.Driver;
+import com.PubLibrary.pages.DashboardPage;
+import com.PubLibrary.pages.LibrarianBooksPage;
+import com.PubLibrary.pages.LoginPage;
+import com.PubLibrary.utilities.BrowserUtils;
+import com.PubLibrary.utilities.ConfigurationReader;
+import com.PubLibrary.utilities.Driver;
 import com.github.javafaker.Faker;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

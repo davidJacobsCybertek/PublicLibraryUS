@@ -1,7 +1,7 @@
-package com.SysLibrary.pages;
+package com.PubLibrary.pages;
 
-import com.SysLibrary.utilities.ConfigurationReader;
-import com.SysLibrary.utilities.Driver;
+import com.PubLibrary.utilities.ConfigurationReader;
+import com.PubLibrary.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

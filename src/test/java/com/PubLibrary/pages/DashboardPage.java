@@ -1,4 +1,4 @@
-package com.SysLibrary.pages;
+package com.PubLibrary.pages;
 
 public class DashboardPage extends BasePage{
 

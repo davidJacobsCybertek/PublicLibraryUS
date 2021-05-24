@@ -1,4 +1,4 @@
-package com.SysLibrary.runners;
+package com.PubLibrary.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         plugin = {"json:target/cucumber.json",
                 "html:target/default-html-reports"},
         features = "src/test/resources/features",
-        glue = "com/SysLibrary/step_definitions",
+        glue = "com/PubLibrary/step_definitions",
         dryRun = false,
         tags = "@wip"
 )

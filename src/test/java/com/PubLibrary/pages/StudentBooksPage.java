@@ -1,6 +1,6 @@
-package com.SysLibrary.pages;
+package com.PubLibrary.pages;
 
-import com.SysLibrary.utilities.BrowserUtils;
+import com.PubLibrary.utilities.BrowserUtils;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
