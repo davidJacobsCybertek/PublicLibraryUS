@@ -12,13 +12,13 @@ Background:
     And the user click on Save Changes
     Then "The book has been created." message should be displayed
 
-  @addBookWithStudent @wip
+  @addBookWithStudent
   Scenario: Student users should NOT be able to add books
     When the user enters the student information
     And the user navigate to Books module
     Then Add Book button should NOT be seen on the page
 
-  @verifyBookParameters
+  @verifyBookParameters @wip
   Scenario: Verify the book parameters in the Add Book Page
     When the user enters the librarian information
     And the user navigate to Books module
@@ -74,3 +74,5 @@ Background:
         | 1234567890     | The book has been created. |
         | 1234567890123  | The book has been created. |
         | 123456789012-  | The book has been created. |
+
+#      for merge practice
