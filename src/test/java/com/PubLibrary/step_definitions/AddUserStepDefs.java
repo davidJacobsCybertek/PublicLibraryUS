@@ -34,15 +34,15 @@ public class AddUserStepDefs {
     @When("the user navigates to the Users module")
     public void the_user_navigates_to_the_Users_module() {
         // Write code here that turns the phrase above into concrete actions
-       BrowserUtils.waitForClickablility(dashboardPage.librarianUsersButton, 5);
-       dashboardPage.librarianUsersButton.click();
+        BrowserUtils.waitForClickablility(dashboardPage.librarianUsersButton, 5);
+        dashboardPage.librarianUsersButton.click();
 
     }
     @When("the user clicks on Add User button")
     public void the_user_clicks_on_Add_User_button() {
         // Write code here that turns the phrase above into concrete actions
-       BrowserUtils.waitForClickablility(usersPage.addUser, 5);
-       usersPage.addUser.click();
+        BrowserUtils.waitForClickablility(usersPage.addUser, 5);
+        usersPage.addUser.click();
     }
     @When("fills the information needed on {string} {string} {string}")
     public void fills_the_information_needed_on(String username, String password, String email) {
@@ -57,7 +57,7 @@ public class AddUserStepDefs {
     @When("the user clicks on Save Changes")
     public void the_user_clicks_on_Save_Changes() {
         // Write code here that turns the phrase above into concrete actions
-       usersPage.submit.click();
+        usersPage.submit.click();
     }
     @Then("the new user should show on the top of the list")
     public void the_new_user_should_show_on_the_top_of_the_list() {
@@ -79,9 +79,9 @@ public class AddUserStepDefs {
 
     @Then("the following data should be displayed")
     public void the_following_data_should_be_displayed(List<String> expectedUserData) {
-       BrowserUtils.waitForVisibility(usersPage.addUser, 5);
+        BrowserUtils.waitForVisibility(usersPage.addUser, 5);
 
-       List <String> actualUserData = new ArrayList<>();
+        List <String> actualUserData = new ArrayList<>();
         actualUserData.add(usersPage.userName.getText());
         actualUserData.add(usersPage.password.getText());
         actualUserData.add(usersPage.email.getText());

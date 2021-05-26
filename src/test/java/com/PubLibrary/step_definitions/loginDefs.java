@@ -51,5 +51,4 @@ public class loginDefs {
         String actualTitle = Driver.get().getTitle();
         Assert.assertNotEquals("Library",actualTitle);
     }
-
 }

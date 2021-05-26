@@ -31,10 +31,11 @@ public abstract class BasePage {
     @FindBy(css =".dropdown-item")
     public WebElement logOutLink;
 
-    @FindBy (xpath = "//*[@id='menu_item']/li[2]")
-    public WebElement librarianUsersButton;
+    @FindBy(xpath = "/html/body/header/nav/div/ul[2]/li/a")
+    public WebElement usernameButton;
 
-
+    @FindBy(xpath = "/html/body/header/nav/div/ul[2]/li/div/a")
+    public WebElement logoutButton;
 
     public BasePage() {
         PageFactory.initElements(Driver.get(), this);
