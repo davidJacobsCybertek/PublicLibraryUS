@@ -31,6 +31,11 @@ public abstract class BasePage {
     @FindBy(css =".dropdown-item")
     public WebElement logOutLink;
 
+    @FindBy (xpath = "//*[@id='menu_item']/li[2]")
+    public WebElement librarianUsersButton;
+
+
+
     public BasePage() {
         PageFactory.initElements(Driver.get(), this);
     }
