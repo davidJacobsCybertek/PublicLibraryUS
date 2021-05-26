@@ -11,7 +11,10 @@ public class LoginPage {
     public LoginPage(){
         PageFactory.initElements(Driver.get(),this);
     }
+
+
         //Edison's code
+
 
     @FindBy(id = "inputEmail")
     public WebElement emailInput;
