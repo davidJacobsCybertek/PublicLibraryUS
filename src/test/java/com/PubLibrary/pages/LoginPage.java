@@ -11,7 +11,7 @@ public class LoginPage {
     public LoginPage(){
         PageFactory.initElements(Driver.get(),this);
     }
-
+    //bledi test
 
     @FindBy(id = "inputEmail")
     public WebElement emailInput;
