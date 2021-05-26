@@ -1,5 +1,5 @@
-# group_25_project
-group project repository for group_25
+# PubLibUS
+group project repository for PubLibUS
 
-Hello group_25. This is our initial for SysLibrary project. 
+Hello group This is our initial for PPublicLibrary project. 
 After clone this project please work on your own branch in your local.
