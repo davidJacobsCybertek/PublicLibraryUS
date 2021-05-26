@@ -53,6 +53,9 @@ public class UsersPage extends BasePage{
     @FindBy(css = "[type='search']")
     public WebElement seachBox;
 
+    @FindBy (css = ".portlet-title>span")
+    public WebElement addUser;
+
 
 //    this code bloc select user group at ADD USER funcionality according user entrance
     public void selectUserGroupAdd (String selection){
