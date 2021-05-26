@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.List;
 
 public class AddBookPage {
-
+//test for git merge
     public AddBookPage(){PageFactory.initElements(Driver.get(),this);}
 
     @FindBy(name = "name")
