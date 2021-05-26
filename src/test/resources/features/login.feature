@@ -21,4 +21,4 @@ Feature: Only Authorized Users should be able to login
     Examples:
       | email                | password |
       | librarian181@library | WwRsaD3  |
-      | librarian181@librar  | WwRsaD3J |
+      | librarian181@library  | WwRsaD3J |

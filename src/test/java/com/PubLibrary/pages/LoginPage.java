@@ -13,6 +13,9 @@ public class LoginPage {
     }
 
 
+        //Edison's code
+
+
     @FindBy(id = "inputEmail")
     public WebElement emailInput;
 
