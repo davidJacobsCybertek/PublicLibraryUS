@@ -34,8 +34,8 @@ public class AddUserStepDefs {
     @When("the user navigates to the Users module")
     public void the_user_navigates_to_the_Users_module() {
         // Write code here that turns the phrase above into concrete actions
-        BrowserUtils.waitForClickablility(dashboardPage.librarianUsersButton, 5);
-        dashboardPage.librarianUsersButton.click();
+        BrowserUtils.waitForClickablility(dashboardPage.usersButton, 5);
+        dashboardPage.usersButton.click();
 
     }
     @When("the user clicks on Add User button")

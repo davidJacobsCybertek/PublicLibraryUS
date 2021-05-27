@@ -54,7 +54,7 @@ public class AddBookStepDefs {
         if (expectedMessage.equals("The book has been created.")){
             Assert.assertEquals(expectedMessage,actualMessage);
         }else{
-            Assert.assertFalse(false);
+            Assert.assertTrue(false);
         }
     }
 
