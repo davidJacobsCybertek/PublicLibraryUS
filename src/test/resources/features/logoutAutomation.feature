@@ -1,7 +1,7 @@
 Feature: 
 
 	#QA3
-	@PUB-74
+	@PUB-74 @smoke
 	Scenario: Verfy that the user can log out Automation
 		Given that im logged in as a user
 		When the user clicks the username on top right corner of main page
