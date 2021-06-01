@@ -1,7 +1,7 @@
 Feature: 
 
 	#Verify that Librarian can add book
-	@PUB-67 @smoke
+	@PUB-67 @smoke1
 	Scenario: Verify that Librarian can add book
 		
 		    Given the user is on the login page
